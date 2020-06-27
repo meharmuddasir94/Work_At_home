@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zubairmuddasir12fyp.work_at_home.Fragments.intersts_sub"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:id="@+id/lv"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:id="@+id/gp"
+            android:src="@drawable/gig" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/des2"
+            android:background="@drawable/border"
+
+            android:text="Description"
+            android:paddingLeft="10dp"
+            android:textColor="@color/bLACK" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/users"
+            android:background="@drawable/border"
+            android:layout_marginTop="1000dp"
+            android:text="Description"
+            android:paddingLeft="10dp"
+            android:textColor="@color/WHITE" />
+        />
+    </LinearLayout>
+
+
+</RelativeLayout>

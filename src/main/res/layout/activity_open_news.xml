@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zubairmuddasir12fyp.work_at_home.open_news">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/sddf"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-20dp"
+        android:id="@+id/top" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="-40dp"
+        android:id="@+id/ba"
+        android:onClick="back"
+        android:layout_toLeftOf="@id/top"
+        android:src="@drawable/asdf" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:id="@+id/logod"
+        android:src="@drawable/s"
+        android:background="@drawable/border"
+        android:layout_toRightOf="@id/ba"
+        android:layout_marginLeft="50dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:id="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/WHITE"
+        android:layout_toRightOf="@id/logod" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/top">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center"
+                android:text="Description"
+
+                android:textColor="@color/green"
+
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:layout_marginLeft="10dp"
+
+                android:id="@+id/desreal"
+
+
+                android:layout_marginTop="10dp"
+                android:textColor="@color/bLACK"
+                android:layout_below="@id/tv1" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
